@@ -10,14 +10,14 @@ using namespace std;
 
 class Node
 {
-public:
 	int input; //Our data that will be updated per node
 	string text;
 
 	Node* next; //connection to next node
 	Node* prev; //connection to previous node
+public:
 	Node(int d, string s);
-	Node::Node() //constructor to convert input data to Node data types
+	Node() //constructor to convert input data to Node data types
 	{
 	}
 };
@@ -134,7 +134,7 @@ int main()
 	}
 	cout << "The ordered list:" << endl;
 	link.Print();
-	system("pause");
+	return 1;
 }
  //OUTPUT
 /*
